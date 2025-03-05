@@ -10,7 +10,7 @@ export default function Commition() {
   const prices = {
     illustration: { usd: 20, inr: 800 },
     animation: { usd: 39, inr: 1600 },
-    writing: { usd: 2.5, inr: 300 },
+    writing: { usd: 2.5, inr: 80 },
   };
 
   return (
@@ -111,6 +111,7 @@ export default function Commition() {
               Starting at{" "}
               {isDollar ? `$${prices.writing.usd}` : `₹${prices.writing.inr}`}
             </p>
+            <p>per 100 words</p>
           </div>
         </div>
       </div>

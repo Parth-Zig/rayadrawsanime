@@ -4,7 +4,7 @@ import ImageComponent from "./components/ImageComponent";
 import Profile from "./components/Profile";
 import Commition from "./components/Commition";
 import ContactUs from "./components/ContactUs";
-import Test from "./components/Test"
+// import Test from "./components/Test"
 
 
 export default function Home() {
@@ -12,7 +12,6 @@ export default function Home() {
     <>
       <div className="font-[family-name:var(--font-geist-mono)]">
 
-        {/* <div className="fixed bottom-0 right-0 w-20 h-20 bg-pink-600 sm:bg-blue-600 md:bg-amber-200 lg:bg-green-600 xl:bg-amber-600">Responsive Box</div> */}
 
 
 
