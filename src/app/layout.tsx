@@ -31,7 +31,8 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
-        <div className="fixed bottom-0 right-0 w-20 h-20 bg-pink-600 sm:bg-blue-600 md:bg-amber-200 lg:bg-green-600 xl:bg-amber-600">Responsive Box</div>
+
+        {/* <div className="fixed bottom-0 right-0 w-20 h-20 bg-pink-600 sm:bg-blue-600 md:bg-amber-200 lg:bg-green-600 xl:bg-amber-600">Responsive Box</div> */}
 
         <Footer />
       </body>

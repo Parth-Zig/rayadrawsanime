@@ -9,14 +9,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="md:container mx-auto flex justify-between items-center p-4 z-40">
+    <nav className="md:container mx-auto flex justify-between items-center p-4 pb-8 z-40">
       {/* Logo */}
-      <div className="text-xl font-bold">
+      <div className="text-3xl font-bold">
         <Link href="/">Logo</Link>
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex items-center gap-8">
+      <div className="text-lg hidden md:flex items-center gap-8">
         <Link href="#" className="hover:text-blue-500 transition">Instagram@Id</Link>
         <Link href="#" className="hover:text-blue-500 transition">Telegram@Id</Link>
         <Link href="#" className="hover:text-blue-500 transition">Email@Id</Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Button */}
       <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <X size={28} /> : <Menu size={28} />}
+        {isOpen ? <X size={35} /> : <Menu size={35} />}
       </button>
 
       {/* Mobile Menu */}
