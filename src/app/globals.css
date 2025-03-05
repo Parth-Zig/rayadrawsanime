@@ -47,8 +47,9 @@ body {
   padding: 10px 20px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .blackBtn:hover {
-  background-color: #303030; /* Slightly gray on hover */
+  background-color: #4e4e4e; /* Slightly gray on hover */
 }

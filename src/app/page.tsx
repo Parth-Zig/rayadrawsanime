@@ -21,14 +21,13 @@ export default function Home() {
               Demo of my work
             </h2>
 
-            {/* Masonry Effect */}
             <div className="columns-1 sm:columns-2 lg:columns-2 xl:columns-3 gap-2 space-y-4">
-              <ImageComponent src="/photo-1.webp" title="Photo 1" alt="Image of photo one" />
-              <ImageComponent src="/photo-2.webp" title="Photo 2" alt="Image of photo two" />
-              <ImageComponent src="/photo-3.webp" title="Photo 3" alt="Image of photo three" />
-              <ImageComponent src="/photo-4.webp" title="Photo 4" alt="Image of photo four" />
-              <ImageComponent src="/photo-5.webp" title="Photo 5" alt="Image of photo five" />
-              <ImageComponent src="/photo-6.webp" title="Photo 6" alt="Image of photo six" />
+              <ImageComponent src="/photo-1.webp" title="PLorem ipsum dolor sit amet consectetur adipisicing elit. Natus, fuga. " alt="Image of photo one" />
+              <ImageComponent src="/photo-2.webp" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, numquam!" alt="Image of photo two" />
+              <ImageComponent src="/photo-3.webp" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, accusantium?" alt="Image of photo three" />
+              <ImageComponent src="/photo-4.webp" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, nam!" alt="Image of photo four" />
+              <ImageComponent src="/photo-5.webp" title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, sapiente!" alt="Image of photo five" />
+              <ImageComponent src="/photo-6.webp" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, numquam!" alt="Image of photo six" />
             </div>
           </div>
         </section>

@@ -37,7 +37,7 @@ export default function Commition() {
         
         {/* Switch Background */}
         <motion.div
-          className="w-12 h-6 bg-gray-300 rounded-full peer-checked:bg-blue-600 relative"
+          className="w-12 h-6 bg-gray-300 rounded-full peer-checked:bg-gray-600 relative"
           layout
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
         >
