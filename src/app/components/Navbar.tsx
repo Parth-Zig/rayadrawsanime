@@ -17,9 +17,9 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <div className="text-lg hidden md:flex items-center gap-8">
-        <Link href="#" className="hover:text-blue-500 transition">Instagram@Id</Link>
-        <Link href="#" className="hover:text-blue-500 transition">Telegram@Id</Link>
-        <Link href="#" className="hover:text-blue-500 transition">Email@Id</Link>
+        <Link href="#" className="hover:text-gray-400 transition">Instagram@Id</Link>
+        <Link href="#" className="hover:text-gray-400 transition">Telegram@Id</Link>
+        <Link href="#" className="hover:text-gray-400 transition">Email@Id</Link>
       </div>
 
       {/* Mobile Menu Button */}

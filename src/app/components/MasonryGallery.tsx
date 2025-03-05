@@ -48,7 +48,7 @@ const MasonryGallery: React.FC<MasonryGalleryProps> = ({
                 height={400}
                 width={400}
                 alt={`Gallery Image ${index + 1}`}
-                className="w-full shadow-md pointer-events-none select-none"
+                className="w-full shadow-md pointer-events-none select-none "
                 loading="lazy"
                 draggable={false}
               />
