@@ -2,7 +2,13 @@ import React from "react";
 import MasonryGallery from "../components/MasonryGallery";
 
 export default function ImageSection() {
-  const categories = ['Category1', 'Category2', 'Category3', 'Category4', 'Category5', 'Category6'];
+  const categories = ['Category1', 
+    'Category2', 
+    'Category3', 
+    // 'Category4', 
+    // 'Category5', 
+    // 'Category6'
+  ];
   const imageCount = 8; // Number of images per category
 
   return (
